@@ -13,8 +13,6 @@ on:
     workflows: [ZMediumToMarkdown]
     types:
       - completed
-  schedule:
-    - cron: "10 1 * * *" 
 
 concurrency:
   group: "pages"
@@ -58,18 +56,3 @@ jobs:
 
       - name: Deploy
         run: bash tools/deploy.sh
-      # - name: Upload site artifact
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     path: "_site${{ steps.pages.outputs.base_path }}"
-
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   needs: build
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4
