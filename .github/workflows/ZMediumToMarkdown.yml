@@ -6,6 +6,9 @@ on:
     # Schedule to automatically sync at specified intervals
     # Reference: https://crontab.guru/
 
+permissions:
+  contents: write
+  
 jobs:
   ZMediumToMarkdown:
     runs-on: ubuntu-latest
