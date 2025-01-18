@@ -42,7 +42,7 @@ copyright:
 
 meta: >- 
   Servizio offerto da :PLATFORM con tema :THEME<br/>
-  Automatically sync posts from Medium with ZhgChg.Li.
+  Automatically sync posts from Medium with <a href="https://zhgchg.li/posts/en-medium-to-jekyll/" target="_blank">ZhgChg.Li</a>.
   
 not_found:
   statement: Ci scusiamo, non è stato possibile trovare l'URL in questione. Potrebbe puntare ad una pagina non esistente.

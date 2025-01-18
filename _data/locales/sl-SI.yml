@@ -42,7 +42,7 @@ copyright:
 
 meta: >- 
   Uporabljena :PLATFORM tema :THEME #Using the :PLATFORM theme :THEME<br/>
-  Automatically sync posts from Medium with ZhgChg.Li.
+  Automatically sync posts from Medium with <a href="https://zhgchg.li/posts/en-medium-to-jekyll/" target="_blank">ZhgChg.Li</a>.
 
 not_found:
   statement: Oprostite, hiperpovezava je neustrezna ali vsebina ne obstajata. #Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.

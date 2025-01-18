@@ -42,7 +42,7 @@ copyright:
 
 meta: >- 
   Powered by :PLATFORM with :THEME theme
-  Automatically sync posts from Medium with ZhgChg.Li.
+  Automatically sync posts from Medium with <a href="https://zhgchg.li/posts/en-medium-to-jekyll/" target="_blank">ZhgChg.Li</a>.
 
 not_found:
   statement: Вибачте, це посилання вказує на ресурс, що не існує.

@@ -42,7 +42,7 @@ copyright:
 
 meta: >-
   Powered by :PLATFORM with :THEME theme<br/>
-  Automatically sync posts from Medium with ZhgChg.Li.
+  Automatically sync posts from Medium with <a href="https://zhgchg.li/posts/en-medium-to-jekyll/" target="_blank">ZhgChg.Li</a>.
 
 not_found:
   statement: 해당 URL은 존재하지 않습니다.

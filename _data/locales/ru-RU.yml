@@ -41,7 +41,7 @@ copyright:
 
 meta: >-
   Использует тему :THEME для :PLATFORM<br/>
-  Automatically sync posts from Medium with ZhgChg.Li.
+  Automatically sync posts from Medium with <a href="https://zhgchg.li/posts/en-medium-to-jekyll/" target="_blank">ZhgChg.Li</a>.
 
 not_found:
   statement: Извините, мы перепутали URL-адрес или он указывает на что-то несуществующее.

@@ -42,7 +42,7 @@ copyright:
 
 meta: >- 
   กำลังใช้ธีมของ :PLATFORM ชื่อ :THEME<br/>
-  Automatically sync posts from Medium with ZhgChg.Li.
+  Automatically sync posts from Medium with <a href="https://zhgchg.li/posts/en-medium-to-jekyll/" target="_blank">ZhgChg.Li</a>.
 
 not_found:
   statement: ขออภัย เราวาง URL นั้นไว้ผิดที่ หรือมันชี้ไปยังสิ่งที่ไม่มีอยู่
