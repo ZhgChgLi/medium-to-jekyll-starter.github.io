@@ -6,6 +6,10 @@ Automatically syncs your Medium posts, retrieves all content (including images a
 
 It’s user-friendly, stable, completely free, and requires a one-time setup for lifetime service.
 
+[![ZMediumToMarkdown](../../actions/workflows/ZMediumToMarkdown.yml/badge.svg)](../../actions/workflows/ZMediumToMarkdown.yml)
+[![Automatic build](../../actions/workflows/pages-deploy.yml/badge.svg)](../../actions/workflows/pages-deploy.yml)
+[![pages-build-deployment](../../actions/workflows/pages/pages-build-deployment/badge.svg)](../../actions/workflows/pages/pages-build-deployment)
+
 ## Live Demo
 ![alt text](image.png)
 - [https://zhgchg.li/](https://zhgchg.li/)
@@ -32,8 +36,3 @@ Check out the [docs](https://zhgchg.li/posts/en-medium-to-jekyll/).
 - [ZReviewTender](https://github.com/ZhgChgLi/ZReviewTender) is a tool for fetching app reviews from the App Store and Google Play Console and integrating them into your workflow.
 - [ZMediumToMarkdown](https://github.com/ZhgChgLi/ZMediumToMarkdown) is a powerful tool that allows you to effortlessly download and convert your Medium posts to Markdown format.
 - [linkyee](https://github.com/ZhgChgLi/linkyee) is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages.
-
-
-[![Automatic build](../../actions/workflows/pages-deploy.yml/badge.svg)](../../actions/workflows/pages-deploy.yml)
-
-[![pages-build-deployment](../../actions/workflows/pages/pages-build-deployment/badge.svg)](../../actions/workflows/pages/pages-build-deployment)
