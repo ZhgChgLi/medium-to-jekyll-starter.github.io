@@ -11,4 +11,4 @@ jobs:
     - name: ZMediumToMarkdown Automatic Bot
       uses: ZhgChgLi/ZMediumToMarkdown@main
       with:
-        command: "-j YOUR_MEDIUM_USERNAME"
+        command: "-j zhgchgli_test"
