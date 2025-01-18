@@ -2,7 +2,9 @@ name: ZMediumToMarkdown
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 1 15 * *" # At 01:10 on day-of-month 15.
+    - cron: "10 1 15 * *" # Runs at 01:10 (UTC) on the 15th of every month.
+    # Schedule to automatically sync at specified intervals
+    # Reference: https://crontab.guru/
 
 jobs:
   ZMediumToMarkdown:
@@ -11,4 +13,7 @@ jobs:
     - name: ZMediumToMarkdown Automatic Bot
       uses: ZhgChgLi/ZMediumToMarkdown@main
       with:
-        command: "-j zhgchgli_test"
+        command: "--cookie_uid ${{ secrets.MEDIUM_COOKIE_UID }} --cookie_sid ${{ secrets.MEDIUM_COOKIE_SID }} -j zhgchgli_test"
+        # Replace 'zhgchgli_test' with your Medium username
+        # For example, https://medium.com/@zhgchgli -> zhgchgli
+        # Reference: https://github.com/ZhgChgLi/ZMediumToMarkdown?tab=readme-ov-file#usage
