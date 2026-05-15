@@ -16,7 +16,7 @@ jobs:
     - name: ZMediumToMarkdown Automatic Bot
       uses: ZhgChgLi/ZMediumToMarkdown@main
       with:
-        command: "--cookie_uid ${{ secrets.MEDIUM_COOKIE_UID }} --cookie_sid ${{ secrets.MEDIUM_COOKIE_SID }} -j zhgchgli_test"
+        command: "--accept-terms --cookie_uid ${{ secrets.MEDIUM_COOKIE_UID }} --cookie_sid ${{ secrets.MEDIUM_COOKIE_SID }} -j zhgchgli_test"
         # Replace 'zhgchgli_test' with your Medium username
         # For example, https://medium.com/@zhgchgli -> zhgchgli
         # Reference: https://github.com/ZhgChgLi/ZMediumToMarkdown?tab=readme-ov-file#usage
