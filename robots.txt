@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://medium-to-jekyll-starter.zhgchg.li//sitemap.xml
